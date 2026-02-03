@@ -1,5 +1,7 @@
 # Cognitive / Emotional State Recognition Using EEG Sensor Data
 
+<img src="/results/DEAP-dataset.png" alt="neutral" width="800" height="800"/> 
+
 ##  Project Overview
 
 This project presents a comparative study of multiple classification approaches for recognizing human cognitive and emotional states using EEG (Electroencephalogram) sensor data.
