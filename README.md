@@ -15,6 +15,7 @@ The predicted emotional states are:
 * Calm / Relaxed
 * Neutral / Moderate
 * Alert / Highly Aroused
+
 ---
 
 ## Objectives
@@ -43,7 +44,7 @@ The predicted emotional states are:
   * Cluster 0 → Calm / Relaxed State
   * Cluster 1 → Neutral / Moderate State
   * Cluster 2 → Alert / Highly Aroused State
-
+<img src="/results/Classes_by_KMeans.png" alt="neutral" width="600" height="600"/>
 > ⚠️ Important Note
 > These are pseudo-labels, used strictly for research comparison and benchmarking, not real clinical diagnosis.
 
@@ -78,10 +79,18 @@ The Kaggle notebooks include:
 * Random Forest
 * XGBoost
 
+<img src="/results/confusion_matrix_Random_Forest.png" alt="neutral" width="400" height="400"/>
+
 ### 🔹 Deep Learning
 
 * Fully Connected Neural Network (DNN)
+  
+<img src="/results/DNN__train-curve.png" alt="train curve" width="800" height="800"/>
+
+<img src="/results/confusion_matrix_dnn.png" alt="Confusion matrix" width="400" height="400"/>
+
 * Long Short-Term Memory Network (LSTM)
+<img src="/results/confusion_matrix_lstm.png" alt="neutral" width="400" height="400"/>
 
 ---
 
@@ -110,6 +119,7 @@ The Kaggle notebooks include:
   * Precision (macro)
   * Recall (macro)
   * F1-score (macro)
+<img src="/results/lstm_evalution.png" alt="neutral" width="600" height="600"/>
 
 ---
 
@@ -120,6 +130,8 @@ The Kaggle notebooks include:
 | Feature Engineering + ML | Random Forest           | ~99.0        | ~98.6                   |
 | Fully Connected DNN      | Raw Data                | ~99.26       | ~96.99                  |
 | **Sequence-Based Model** | **LSTM**                | ~99.07       | ~95.87                  |
+
+<img src="/results/model_confusion_m_comparison.png" alt="neutral" width="1000" height="1000"/>
 
 ---
 
@@ -161,7 +173,6 @@ EEG-Emotional-State-Recognition/
 |
 ├── results/
 │   ├── confusion_matrix.png
-│   ├── roc_curves.png
 │
 ├── models/
 │   └── best_lstm_model.h5
