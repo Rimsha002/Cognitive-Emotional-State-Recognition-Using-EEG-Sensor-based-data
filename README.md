@@ -1,4 +1,4 @@
-# Cognitive / Emotional State Recognition Using EEG Sensor Data
+## Cognitive / Emotional State Recognition Using EEG Sensor Data
 
 <img src="/results/DEAP-dataset.png" alt="neutral" width="800" height="800"/> 
 
